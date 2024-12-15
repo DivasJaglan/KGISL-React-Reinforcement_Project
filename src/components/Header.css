@@ -1,0 +1,7 @@
+.link:hover {
+  transition: 500ms;
+  border-radius: 1rem;
+  -webkit-box-shadow: inset 0px 0px 11px 5px rgba(255, 255, 255, 0.75);
+  -moz-box-shadow: inset 0px 0px 11px 5px rgba(255, 255, 255, 0.75);
+  box-shadow: inset 0px 0px 11px 5px rgba(255, 255, 255, 0.75);
+}

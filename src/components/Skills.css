@@ -1,0 +1,51 @@
+.skills-section {
+  padding: 2rem;
+  background: linear-gradient(to bottom, #f9f9f9, #fff);
+}
+
+.skills-heading {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.skill-category {
+  flex: 1 1 300px;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+  gap: 1rem;
+}
+
+.skill-item {
+  text-align: center;
+  transition: transform 0.2s ease-in-out;
+}
+
+.skill-item:hover {
+  transform: scale(1.1);
+}
+
+.placeholder {
+  opacity: 0.5;
+}
+
+.skill-icon {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 0.5rem;
+}
+
+.currently-learning {
+  margin-top: 2rem;
+  text-align: center;
+}
